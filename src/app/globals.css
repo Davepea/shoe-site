@@ -25,3 +25,50 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.marquee{
+  background: #0f0f0f;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  overflow: hidden;
+  padding: 2rem 0px;
+  width: 150%;
+  transform: rotateZ(5deg);
+  position: relative;
+  left: -20px;
+
+}
+.marq2{
+  transform: rotateZ(-5deg);
+
+}
+.box{
+  width: 400px;
+  height: 400px;
+  background: green;
+}
+.marquee_inner{
+  display: flex;
+  width: fit-content;
+  flex: auto;
+  flex-direction: row;
+}
+
+.marque_parts{
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0 4px;
+}
+.marque_parts2{
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0 4px;
+}
