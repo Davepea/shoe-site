@@ -16,6 +16,10 @@
   }
 }
 
+html,body{
+  width: 100%;
+  overflow-x: hidden !important;
+}
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,6 +28,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar{
@@ -31,18 +37,22 @@ body::-webkit-scrollbar{
 }
 
 .marquee{
-  background: #0f0f0f;
-  color: #fff;
+  background: #ffffff;
+  color: #010101;
   font-size: 40px;
   font-weight: 600;
   text-transform: capitalize;
   overflow: hidden;
-  padding: 2rem 0px;
-  width: 150%;
+  padding: 1.5rem 0px;
+  width: 110%;
   transform: rotateZ(5deg);
   position: relative;
   left: -20px;
 
+}
+.shad{
+  
+  background: #ffffff;
 }
 .marq2{
   transform: rotateZ(-5deg);
