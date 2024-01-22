@@ -213,21 +213,45 @@ export default function Home() {
         </div>
 
       </section>
-
-      <section className='xl:px-20 md:px-10 xs:px-4 grid md:grid-cols-2'>
+      <section className='xl:px-20 md:px-10 xs:px-4 py-10 pb-24'>
+        <div className='text-center pb-8'>
+          <span></span>
+          <h2 className=' xl:text-4xl font-semibold  text-center' >Streamline Your Online Shopping Experience With Us</h2>
+          <p >Our eCommerce platform offers an easy checkout process, exceptional customer service, and a wide range of products to meet your needs.</p>
+        </div>
         <div>
-          <h1 className=' xl:text-4xl font-semibold'>it has been our goal to get you the footwear that tells your story</h1>
-          <ol>
-            <li className='bg-white text-black'><b>High-Quality Performance:</b> <br/>
+          <div className=' w-[250px]'>
+            <div className='w-[250px] h-[300px] overflow-hidden'>
+            <Image
+                  src="https://images.pexels.com/photos/8092991/pexels-photo-8092991.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                  width={1000}
+                  height={1000}
+                  alt='hero image'
+                />
+            </div>
+            <h3 className=' font-bold'>All star convass</h3>
+            <p className=' text-sm pt-2 font-thin'>a pair of shoe that let you enjoy your simple life style</p>
+            <button  className=' bg-white mt-3 text-black px-8 py-2 2pages and first-letter:marker:file:'>
+              add cart +
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section className='xl:px-20 md:px-10 xs:px-4 grid md:grid-cols-2 py-14'>
+        <div>
+          <h1 className=' xl:text-4xl font-semibold pb-8'>it has been our goal to get you the footwear that tells your story</h1>
+          <ol className=' flex flex-col gap-4'>
+            <li className=' border-l-2 h-28 p-4'><b>High-Quality Performance:</b> <br/>
                 <small>Experience faster load times and seamless interactions with cutting-egde technology</small>
             </li>
-            <li><b>Intuitive User Interface:</b> <br/>
+            <li className=' border-l-2 h-28 p-4'><b>Intuitive User Interface:</b> <br/>
                 <small>Effortlessly explore and use our platform, thanks to a user-friendly design with intuitive navigation.</small>
             </li>
-            <li><b>Robust Security Measures:</b> <br/>
+            <li className=' border-l-2 h-28 p-4'><b>Robust Security Measures:</b> <br/>
                 <small>Protect your data and ensure a secure online experience with advanced security protocols and encryption.</small>
             </li>
-            <li><b>24/7 Customer Support:</b> <br/>
+            <li className=' border-l-2 h-28 p-4'><b>24/7 Customer Support:</b> <br/>
                 <small>Receive prompt assistance whenever you need it from our dedicated support team available around the clock.</small>
             </li>
           </ol>
