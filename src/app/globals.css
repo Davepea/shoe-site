@@ -18,11 +18,11 @@
 
 html,body{
   width: 100%;
-  /* background: #eff6f8; */
-  background: #010101;
+  background: #fff;
+  /* background: #010101; */
   overflow-x: hidden !important;
-  /* color: #000; */
-  color: #ffffff;
+  color: #000;
+  /* color: #ffffff; */
 }
 body {
   color: rgb(var(--foreground-rgb));
@@ -58,6 +58,10 @@ body::-webkit-scrollbar{
   
   /* background: #efc050; */
   background: #ffffff;
+}
+.crd div{
+  
+  flex: 0 0 auto;
 }
 .marq2{
   transform: rotateZ(-5deg);
